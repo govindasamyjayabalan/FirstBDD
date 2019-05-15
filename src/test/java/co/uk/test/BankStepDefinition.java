@@ -19,6 +19,7 @@ public class BankStepDefinition {
 
     @cucumber.api.java.en.And("^I go to bank login page$")
     public void iGoToBankLoginPage() {
+        System.out.println("Test commit");
         driver.get("https://internet-banking.retail.dbsbank.in/login");
 
     }
